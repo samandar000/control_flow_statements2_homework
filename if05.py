@@ -13,13 +13,14 @@ def main(n):
     x5=n%100000//10000
     if x1 > x2 and x1 > x3 and x1 >x4 and x1 > x5:
         return x1
-    elif x2 > x1:
+    if x2 > x1:
         return x2
-    elif x3 > x1:
+    if x3 > x1:
         return x3
-    elif x4 > x1:
+    if x4 > x1:
         return x4
-    elif x5 > x1:
+    if x5 > x1:
         return x5
-print(main(51216))
+    
+print(main(61216))
     
