@@ -1,3 +1,6 @@
+from multiprocessing.connection import answer_challenge
+
+
 def main(number):
     """
     Return the days of the week, return the days of the week according to the numbers 1 to 7.
@@ -14,4 +17,21 @@ def main(number):
     Returns:
         str: return answer.
     """
-    return
+    
+    if number==1:
+        print('Monday')
+    elif number==2:
+        print('Tuesday')
+    elif number==3:
+        print('Wednesday')
+    elif number==4:
+        print('Thursday')
+    elif number==5:
+        print('Friday')
+    elif number==6:
+        print('Saturday')
+    elif number==7:
+        print('Sunday')
+    
+    
+print(main(4))
