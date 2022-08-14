@@ -21,6 +21,8 @@ def main(n):
         return x4
     if x5 > x1:
         return x5
+    if x1==x2 or x3 or x4 or x5:
+        return x1
     
-print(main(61216))
+print(main(14234))
     
