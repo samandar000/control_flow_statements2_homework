@@ -24,5 +24,5 @@ def main(n):
     if x1==x2 or x3 or x4 or x5:
         return x1
     
-print(main(14234))
+print(main(12345))
     
