@@ -21,22 +21,22 @@ def main(number):
     if number==1:
         print('Monday')
 
-    if number==2:
+    elif number==2:
         print('Tuesday')
 
-    if number==3:
+    elif number==3:
         print('Wednesday')
 
-    if number==4:
+    elif number==4:
         print('Thursday')
     
-    if number==5:
+    elif number==5:
         print('Friday')
     
-    if number==6:
+    elif number==6:
         print('Saturday')
     
-    if number==7:
+    elif number==7:
         print('Sunday')
         
     
