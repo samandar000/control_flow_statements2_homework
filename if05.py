@@ -11,14 +11,19 @@ def main(n):
     x3=n%1000//100
     x4=n%10000//1000
     x5=n%100000//10000
+
     if x1 > x2 and x1 > x3 and x1 >x4 and x1 > x5:
         return x1
+
     elif x2 > x1:
         return x2
+
     elif x3 > x1:
         return x3
+
     elif x4 > x1:
         return x4
+        
     elif x5 > x1:
         return x5
     if x1==x2 or x3 or x4 or x5:
